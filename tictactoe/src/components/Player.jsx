@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+// eslint-disable-next-line react/prop-types
 export default function Player({ initialName, symbol }) {
 
     const [ playerName, setPlayerName ] = useState(initialName);
